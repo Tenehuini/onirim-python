@@ -1,11 +1,11 @@
-from collections import namedtuple
-
-import re
 import os
+import re
 import copy
 import random
 import signal
 import sys
+
+from collections import namedtuple
 
 
 SUN = "sun"
