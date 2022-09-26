@@ -205,8 +205,8 @@ def choose_key_to_discard():
             indexes.append(index)
     for i in indexes:
         print("{index}: {color} key", i + 1, player_hand[i].color)
-    key_index = input("Select key to discard: ")
     while True:
+        key_index = input("Select key to discard: ")
         if valid_key_index(int(key_index)):
             remove_key(int(key_index))
             break
